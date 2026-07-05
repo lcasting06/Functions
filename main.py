@@ -7,7 +7,7 @@ def totalDue(money, tax):
     total = money + (money * tax)
     return total
 
-def fahrenheit_to_celsius(fahrenheit):
+def fahrenheitToCelsius(fahrenheit):
     celsius = (fahrenheit - 32) * (5 / 9)
     return celsius
 
@@ -20,4 +20,4 @@ taxRate = taxPercent / 100
 print("%.2f" % totalDue(money, taxRate))
 
 fahrenheit = float(input("Enter the Fahrenheit temperature: "))
-print("%.6g" % fahrenheit_to_celsius(fahrenheit))
+print("%.6g" % fahrenheitToCelsius(fahrenheit))
